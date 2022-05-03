@@ -1,0 +1,33 @@
+{
+  "name": "flask-react-starter",
+  "version": "1.0.0",
+  "main": "./app/views/src/index.tsx",
+  "author": "Chandrabhan Maurya",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "dev": "webpack --mode development --watch ./app/views/src/index.tsx --output-path ./static/",
+    "build": "webpack --mode production --watch ./app/views/src/index.tsx --output-path ./static/"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "source-map-loader": "^3.0.1",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
